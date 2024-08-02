@@ -34,7 +34,7 @@ and enter the file details and save the file.
 
 Reload the crossover rePhase settings for Mid and click the Paragraphic Phase EQ tab, then in the slider panel click the Presets dropdown and select "Flat 1/3 oct Mid freq" to set the slider frequencies to usable mid range values, then up the top of the screen click "File", "Import Measurement" and select the Excess Phase measurement.
 
- XO-Mid-Dec-4-HP96-290Hz-LP48-3800Hz-4096T Import EP.jpg
+ ![alt text](<Images/XO-Mid-Dec-4-HP96-290Hz-LP48-3800Hz-4096T Import EP.jpg>)
 
 The Ranges and Measurement tabs (bottom right panel) need to be changed to get the data to display, in the Measurement tab I set gain offset to 0 to bring back the frequency response of the XO, in the Ranges tab I set the Phase at -270 to 90 corresponding to the REW measurement earlier.
 
@@ -47,38 +47,40 @@ To manipulate the phase, select a frequency, check the Excess phase amount on th
 It took me a few goes to get to here, but it really doesn't take long. I have learnt from bitter experience to save the settings for each iteration of the measurements as it is then simple to go back a step when you stuff up.
 
 Here is rePhase showing the Paragraphic Phase EQ for Mid at PF156 (PH156 means Phase Fix attempt on June 15).
+![alt text](<Images/XO-Mid-Dec-4-HP96-290Hz-LP48-3800Hz-4096T PF156.jpg>)
 
- XO-Mid-Dec-4-HP96-290Hz-LP48-3800Hz-4096T PF156.jpg
 
 
 RePhase for Hi showing the XO response and Excess Phase. (The ranges were altered the same as for Mid and the Presets dropdown menu set to "flat 1/3 oct high freq").
-
+![alt text](<Images/XO-Hi-Dec-4-LR48-HP3600Hz-4096T Excess Phase imported.jpg>)
 
 Here is rePhase showing the Paragraphic Phase EQ for Hi at PF156 (PH156 means Phase Fix attempt number 6 on June 15).
+![alt text](Images/XO-Hi-Dec-4-LR48-HP3600Hz-4096T-pf156.jpg)
 
- XO-Hi-Dec-4-LR48-HP3600Hz-4096T-pf156.jpg
 
 When you are satisfied with the manipulated phase, click the "generate" box and rePhase will build your FIR filter.
 
 The next step is to copy the XO PF files to  the CamillaDSP filters section.
 
 Here is the CamillaDSP GUI with the Filters tab selected showing the XO filters.
+![alt text](<Images/CamillaDSP GUI, Files tab showing dbl files.jpg>) 
+
+In this next screengrab of filters in the config, again you can see my pedantic descriptor naming of XO filters and also the green + sign that is used to add a new filter.
+CamillaDSP GUI, Filters tab showing FIR filters using the dbl files
+![alt text](<Images/CamillaDSP GUI, Filters tab showing FIR filters using the dbl files.jpg>) 
+
+
+
+OK, How does it look in REW - SPL unchanged, Phase looking good,  
  
-CamillaDSP GUI, Files tab showing dbl files.jpg
+![alt text](<Jun 23 2 T44_A67 new pf - no input peqs.jpg>)
 
- CamillaDSP GUI, Filters tab showing FIR filters using the dbl files.jpg
+Impulse (Step Response) showing a tiny bit of pre-ringing but I think that will be inaudible
 
-In this screengrab of filters in the config, again you can see my pedantic descriptor naming of XO filters and also the green + sign that is used to add a new filter.
+![alt text](<Jun 23 2 T44_A67 new pf - no input peqs Impulse - Step Response.jpg>)
 
-OK, How does it look in REW - SPL unchanged, Phase looking good, Impulse (Step Response) showing a tiny bit of pre-ringing but I think that will be inaudible and finally the Spectrogram is as good as it gets with a 3 way horn system
+Group Delay (GD) looks good
+![alt text](<Jun 23 2 T44_A67 new pf - no input peqs GD.jpg>)
 
- L+R Jun 23 2 T44_A67 new pf - no input peqs.jpg
-
-
- L+R Jun 23 2 T44_A67 new pf - no input peqs Impulse - Step Response.jpg
-
-
- L+R Jun 23 2 T44_A67 new pf - no input peqs GD.jpg
-
-
- L+R Jun 23 2 T44_A67 new pf - no input peqs Spectrogram.jpg
+and finally the Spectrogram is as good as it gets with a 3 way horn system
+![alt text](<Jun 23 2 T44_A67 new pf - no input peqs Spectrogram.jpg>)
