@@ -71,6 +71,7 @@ When you are satisfied with the manipulated phase, click the "generate" box and 
 
 **********
 If you are new to rePhase you can download a rePhase settings file from the rePhase Settings folder for one of the crossovers and then download the T31A XS Phase FS.txt file from the REW Measurements folder. Follow the instructions to smooth the phase.
+The rePhase settings files are in the rePhase settings folder (Top of this page in the browser.) Click on the rePhase settings folder, then on the main screen, click on the .rephase file, then click on View raw, there will be a short pause then a save file dialog box will open, save the file to a folder on your computer and then open the file in rePhase - then click on a tab in the lower left pane, Linear Phase filters for the xo and Paragraphic Phase EQ for phase manipulation.
 **********
 
 The next step is to copy the XO PF files to  the CamillaDSP filters section.
