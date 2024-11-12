@@ -24,7 +24,11 @@ This appears complicated, so one way to better understand it is to download the 
 ********** 
 
 
-Right click the thumbnail of the measurement (on the left) and select "Show actions", this will bring up the box (top left) headed "Actions for an individual measurement", where we select "Excess phase version". This will open a box (centre) headed "Excess phase copy" where we select Make excess phase copy. 
+Right click the thumbnail of the measurement (on the left) and select "Show actions", this will bring up the box (top left) headed "Actions for an individual measurement", where we select "Excess phase version". 
+
+![alt text](<Images/Jun 15 3 T31A All SPL Show Actions.jpg>)
+
+This will open a box (centre) headed "Excess phase copy" where we select Make excess phase copy. 
 
 ![alt text](<Images/Jun 15 3 T31A All SPL Make excess phase copy.jpg>)
 
