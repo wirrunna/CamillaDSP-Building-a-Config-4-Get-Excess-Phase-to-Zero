@@ -19,6 +19,11 @@ We need to extract a measurement of Excess Phase from the Full System (20-20kHz)
 
 So, back to our SPL and Phase plot, click the All SPL tab and make sure that only the wanted SPL measurement is shown, I deleted all the rest of the measurements.
 
+**********
+This appears complicated, so one way to better understand it is to download the REW plot and follow along in REW on your own pc. You will need REW and rePhase loaded. The REW measurement file is in the REW Measurements folder (Top of this page in the browser.) Click on the REW Measurements folder, then on the main screen, click on the .mdat file, then click on View raw, there will be a short pause then a save file dialog box will open, save the file to a folder on your computer and then open the file in REW.
+********** 
+
+
 Click the Control icon (the gearwheel at top right) and then select Measurement actions, this will bring up the box (top left) headed "Actions for an individual measurement", where we select Excess phase version. This will open a third box (centre) headed "Excess phase copy" where we select Make excess phase copy. 
 
 ![alt text](<Images/Jun 15 3 T31A All SPL Make excess phase copy.jpg>)
@@ -59,6 +64,10 @@ Here is rePhase showing the Paragraphic Phase EQ for Hi at PF156 (PH156 means Ph
 
 
 When you are satisfied with the manipulated phase, click the "generate" box and rePhase will build your FIR filter.
+
+**********
+If you are new to rePhase you can download a rePhase settings file from the rePhase Settings folder for one of the crossovers and then download the T31A XS Phase FS.txt file from the REW Measurements folder. Follow the instructions to smooth the phase.
+**********
 
 The next step is to copy the XO PF files to  the CamillaDSP filters section.
 
