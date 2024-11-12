@@ -20,15 +20,15 @@ We need to extract a measurement of Excess Phase from the Full System (20-20kHz)
 So, back to our SPL and Phase plot, click the All SPL tab and make sure that only the wanted SPL measurement is shown, I deleted all the rest of the measurements.
 
 **********
-This appears complicated, so one way to better understand it is to download the REW plot and follow along in REW on your own pc. You will need REW and rePhase loaded. The REW measurement file is in the REW Measurements folder (Top of this page in the browser.) Click on the REW Measurements folder, then on the main screen, click on the .mdat file, then click on View raw, there will be a short pause then a save file dialog box will open, save the file to a folder on your computer and then open the file in REW.
+This appears complicated, so one way to better understand it is to download the REW plot and follow along in REW on your own pc. You will need REW and rePhase loaded. The REW measurement file is in the REW Measurements folder (Top of this page in the browser.) Click on the REW Measurements folder, then on the main screen, click on the .mdat file, then click on View raw, there will be a short pause then a save file dialog box will open, save the file to a folder on your computer and then open the file in REW. After opening the file in REW, adjust the frequency limits to 20-20,000Hz , then click the "Actions" box (top right) and the click "Generate minimum phase" and then "Generate and close"
 ********** 
 
 
-Click the Control icon (the gearwheel at top right) and then select Measurement actions, this will bring up the box (top left) headed "Actions for an individual measurement", where we select Excess phase version. This will open a third box (centre) headed "Excess phase copy" where we select Make excess phase copy. 
+Right click the thumbnail of the measurement (on the left) and select "Show actions", this will bring up the box (top left) headed "Actions for an individual measurement", where we select "Excess phase version". This will open a box (centre) headed "Excess phase copy" where we select Make excess phase copy. 
 
 ![alt text](<Images/Jun 15 3 T31A All SPL Make excess phase copy.jpg>)
 
-The "Make excess phase copy" will appear on the left margin with a suffix of -EP.  Click the "SPL & Phase" tab and then click on the new -EP graph. The graph may appear with little or no data, to fix this click the Limits icon and select Fit to data. You may need to "unwrap phase" using the controls (gear wheel at top right). 
+The "Make excess phase copy" will appear on the left margin with a suffix of -EP.  Click the "SPL & Phase" tab and then click on the new -EP graph. The graph may appear with little or no data, to fix this click the Limits icon and select Fit to data. You may need to "unwrap phase" using the "Actions" box" (at top right). 
 
 Click File, then "Export", then "Export measurement as text", accept the next pop up 
 ![alt text](<Images/Jun 15 3 T31A Export Excess Phase.jpg>)
