@@ -98,3 +98,7 @@ Group Delay (GD) looks good
 
 and finally the Spectrogram is as good as it gets with a 3 way horn system
 ![alt text](<Jun 23 2 T44_A67 new pf - no input peqs Spectrogram.jpg>)
+
+The next stage is to further flatten the response by adding input PEQ filters.
+
+https://github.com/wirrunna/CamillaDSP-Building-a-Config-5-Finishing-Touches
